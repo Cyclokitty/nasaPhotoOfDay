@@ -31,23 +31,18 @@ class Photo extends Component {
       backgroundImage: `url(${this.state.image})`
     }
     return (
-
       <div className='Photo' style={photoStyle}>
-        <div className='Details-info'>
-          <div className='Details-item'>
+        <div className='Photo-info'>
+          <div className='Photo-item'>
             <h4>NASA Photo of The Day</h4>
           </div>
-          <div className='Details-item right'>
+          <div className='Photo-item right'>
             <h4>{this.state.title}</h4>
           </div>
+          <div className='Photo-item'>
+            <h6>Made with love by <a href="https://cyclokitty.github.io/" target='blank'><span className='Photo-link'>Laura Veee</span></a></h6>
+          </div>
         </div>
-        <div>
-        <div className='Details-info'>
-          <div className='Details-item centre'>
-            <h6>Made with love by <a href="https://cyclokitty.github.io/" target='blank'><span className='Details-link'>Laura Veee</span></a></h6>
-          </div>
-          </div>
-      </div>
       </div>
     );
   }

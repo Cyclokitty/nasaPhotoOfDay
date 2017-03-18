@@ -1,15 +1,15 @@
-$shadow: 1px 1px white;
+$shadow: 1px 1px black;
 $linkColor: #ffd700;
 
 .Photo {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
 }
 
-.Details-info {
+.Photo-info {
   display: flex;
   width: 100%;
   height: 25%;
@@ -18,8 +18,8 @@ $linkColor: #ffd700;
   position: absolute;
 }
 
-.Details-item {
-  width: 50%;
+.Photo-item {
+  width: 30%;
   text-align: left;
   margin: 20px;
   padding: 20px;
@@ -31,15 +31,6 @@ a:link {
   text-decoration: none;
 }
 
-.Details-link {
+.Photo-link {
   color: $linkColor;
-}
-
-.right {
-  text-align: right;
-}
-
-.centre {
-  text-align: center;
-  width: 100%;
 }
