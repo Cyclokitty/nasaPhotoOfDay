@@ -36,12 +36,18 @@ class Photo extends Component {
         <div className='Details-info'>
           <div className='Details-item'>
             <h4>NASA Photo of The Day</h4>
+          </div>
+          <div className='Details-item right'>
             <h4>{this.state.title}</h4>
           </div>
-          <div className='Details-item'>
-            <h4>Made with love by <a href="https://cyclokitty.github.io/" target='blank'><span className='Details-link'>Laura Veee</span></a></h4>
-            </div>
         </div>
+        <div>
+        <div className='Details-info'>
+          <div className='Details-item centre'>
+            <h6>Made with love by <a href="https://cyclokitty.github.io/" target='blank'><span className='Details-link'>Laura Veee</span></a></h6>
+          </div>
+          </div>
+      </div>
       </div>
     );
   }

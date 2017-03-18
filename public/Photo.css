@@ -2,8 +2,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100vh;
-  width: 100vw; }
+  width: 100vw;
+  height: 100vh; }
 
 .Details-info {
   display: flex;
@@ -26,3 +26,10 @@ a:link {
 
 .Details-link {
   color: #ffd700; }
+
+.right {
+  text-align: right; }
+
+.centre {
+  text-align: center;
+  width: 100%; }
