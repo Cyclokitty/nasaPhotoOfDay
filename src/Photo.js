@@ -22,6 +22,9 @@ class Photo extends Component {
         });
         console.log(this.state.image);
         console.log(this.state.title);
+      })
+      .catch(err => {
+        console.log('sorry, something isn\'t working');
       });
   }
 
